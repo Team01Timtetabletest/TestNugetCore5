@@ -23,7 +23,7 @@ namespace TestNugetCore5.Controllers
                 new AuthenticationProperties() { RedirectUri = "/" });*/
             //way 2
             await HttpContext.ChallengeAsync(MicrosoftAccountDefaults.AuthenticationScheme,
-              new AuthenticationProperties() { RedirectUri = "/" });
+              new AuthenticationProperties() { RedirectUri = "Home/Index" });
         }
 
         public ActionResult Logout()
