@@ -30,7 +30,7 @@ namespace TestNugetCore5
         {
             services.AddControllersWithViews();
             services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme)
-    .AddCookie(item => item.LoginPath = new PathString("/account/login"))
+    .AddCookie(item => item.LoginPath = new PathString("/Account/Login"))
 
     // You must first create an app with Microsoft Account and add its ID and Secret to your user-secrets.
     // https://azure.microsoft.com/en-us/documentation/articles/active-directory-v2-app-registration/
@@ -87,7 +87,7 @@ namespace TestNugetCore5
             {
                 endpoints.MapControllerRoute(
                     name: "default",
-                    pattern: "{controller=Home}/{action=Index}/{id?}");
+                    pattern: "{controller=Account}/{action=Login}/{id?}");
             });
         }
     }
