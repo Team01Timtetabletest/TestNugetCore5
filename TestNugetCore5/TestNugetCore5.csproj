@@ -5,6 +5,10 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Content Remove="Views\Home\calendar.cshtml" />
+  </ItemGroup>
+
+  <ItemGroup>
     <None Include="wwwroot\src\fonts\dropways\dropways.css" />
     <None Include="wwwroot\src\fonts\dropways\dropways.eot" />
     <None Include="wwwroot\src\fonts\dropways\dropways.svg" />
