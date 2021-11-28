@@ -6,6 +6,20 @@
 
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.Authentication.MicrosoftAccount" Version="5.0.0" />
+    <PackageReference Include="Microsoft.Graph" Version="4.11.0" />
+    <PackageReference Include="Microsoft.IdentityModel.Clients.ActiveDirectory" Version="5.2.9" />
+    <PackageReference Include="Microsoft.Identity.Web.MicrosoftGraph" Version="1.18.0" />
+    <PackageReference Include="Microsoft.Identity.Web" Version="1.19.0" />
   </ItemGroup>
 
+  <ItemGroup>
+    <None Remove="Models\" />
+    <None Remove="Microsoft.Graph" />
+    <None Remove="Microsoft.IdentityModel.Clients.ActiveDirectory" />
+    <None Remove="Microsoft.Identity.Web.MicrosoftGraph" />
+    <None Remove="Microsoft.Identity.Web" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Models\" />
+  </ItemGroup>
 </Project>

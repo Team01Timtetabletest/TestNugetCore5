@@ -1,5 +1,4 @@
-using System;
-
+﻿using System;
 namespace TestNugetCore5.Models
 {
     public class ErrorViewModel
