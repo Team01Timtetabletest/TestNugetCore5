@@ -1,0 +1,77 @@
+﻿@{
+    ViewData["Title"] = "Thống kê toàn khoa";
+}
+
+<link rel="stylesheet" type="text/css" href="~/vendors/styles/core.css">
+<link rel="stylesheet" type="text/css" href="~/vendors/styles/icon-font.min.css">
+<link rel="stylesheet" type="text/css" href="~/vendors/styles/style.css">
+
+<div class="main-container">
+    <div class="pd-ltr-20 xs-pd-20-10">
+        <div class="min-height-200px">
+            <div class="page-header">
+                <div class="row">
+                    <div class="col-md-6 col-sm-12">
+                        <div class="title">
+                            <h4>Thống kê toàn khoa</h4>
+                        </div>
+                        <nav aria-label="breadcrumb" role="navigation">
+                            <ol class="breadcrumb">
+                                <li class="breadcrumb-item"><a href="../Home">Trang chủ</a></li>
+                                <li class="breadcrumb-item active" aria-current="page">Thống kê toàn khoa</li>
+                            </ol>
+                        </nav>
+                    </div>
+                    <div class="col-md-6 col-sm-12 text-right">
+                        <div class="dropdown">
+                            <a class="btn btn-primary dropdown-toggle" href="#" role="button" data-toggle="dropdown">
+                                January 2020
+                            </a>
+                            <div class="dropdown-menu dropdown-menu-right">
+                                <a class="dropdown-item" href="#">Export List</a>
+                                <a class="dropdown-item" href="#">Policies</a>
+                                <a class="dropdown-item" href="#">View Assets</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="bg-white pd-20 card-box mb-30">
+                <div id="chart1"></div>
+            </div>
+            <div class="bg-white pd-20 card-box mb-30">
+                <div id="chart2"></div>
+            </div>
+            <div class="bg-white pd-20 card-box mb-30">
+                <div id="chart3"></div>
+            </div>
+            <div class="bg-white pd-20 card-box mb-30">
+                <div id="chart4"></div>
+            </div>
+            <div class="bg-white pd-20 card-box mb-30">
+                <div id="chart5"></div>
+            </div>
+            <div class="bg-white pd-20 card-box mb-30">
+                <div id="chart6"></div>
+            </div>
+            <div class="bg-white pd-20 card-box mb-30">
+                <div id="chart7"></div>
+            </div>
+            <div class="bg-white pd-20 card-box mb-30">
+                <div id="chart8"></div>
+            </div>
+        </div>
+        @*<div class="footer-wrap pd-20 mb-20 card-box">
+                DeskApp - Bootstrap 4 Admin Template By <a href="https://github.com/dropways" target="_blank">Ankit Hingarajiya</a>
+            </div>*@
+    </div>
+</div>
+
+<script src="~/vendors/scripts/core.js"></script>
+<script src="~/vendors/scripts/script.min.js"></script>
+<script src="~/vendors/scripts/process.js"></script>
+<script src="~/vendors/scripts/layout-settings.js"></script>
+<script src="~/src/plugins/highcharts-6.0.7/code/highcharts.js"></script>
+<script src="https://code.highcharts.com/highcharts-3d.js"></script>
+<script src="~/src/plugins/highcharts-6.0.7/code/highcharts-more.js"></script>
+<script src="~/vendors/scripts/highchart-setting.js"></script>

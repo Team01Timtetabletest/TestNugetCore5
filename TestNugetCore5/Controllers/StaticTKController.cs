@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace TestNugetCore5.Controllers
 {
-    public class Calendar : Controller
+    public class StaticTKController : Controller
     {
         public IActionResult Index()
         {
